@@ -1,7 +1,8 @@
 import qrcode
 
 # Data you want to encode
-data = "https://github.com/wajidkorkani"
+print("Enter url to generate qr code image: ")
+data = input()
 
 # Create qr object
 qr = qrcode.QRCode(
